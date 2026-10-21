@@ -6,15 +6,16 @@
 
 - Public repository: `https://github.com/pengyan0425/pengyan0425-research-without-theater`
 - Product version: `v0.1.0`
+- Public release: [v0.1.0](https://github.com/pengyan0425/pengyan0425-research-without-theater/releases/tag/v0.1.0)
 - License: Apache-2.0
 - Maintainer role: Primary maintainer
 - OpenAI Organization ID: `<enter the actual OpenAI organization ID>`
 - Adoption evidence: None to claim; this is a new repository
 
-Before submission, publish the target repository and release tag, verify the
-public URL and license, and replace every placeholder with a current verified
-fact. Do not submit this draft from a private checkout or invent a value in the
-Organization ID field.
+The repository, release tag, public downloads, and Skill Installer route were
+verified on 2026-10-21; see [the distribution check](portability.md#public-distribution-check).
+Before submission, enter the actual OpenAI Organization ID and check that every
+submission field still reflects a current verified fact.
 
 ## Why this repository fits [463/500]
 

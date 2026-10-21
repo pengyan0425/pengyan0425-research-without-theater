@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Pin ZIP creator metadata so Windows rebuilds match the published Linux archive.
+- Record public Skill Installer and release-download verification.
+
 ## 0.1.0
 
 - Introduce one self-contained skill for scientific code, manuscript writing, and evidence checks.

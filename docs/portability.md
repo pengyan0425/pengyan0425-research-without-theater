@@ -9,9 +9,32 @@ possible in principle and untested here.
 | --- | --- |
 | Codex CLI on Windows | Used for the recorded model evaluations |
 | Codex local skill discovery | Covered by the documented user and project locations |
-| GitHub Skill Installer route | Documented for the public repository; separate from the recorded model evaluations |
+| GitHub Skill Installer route | Downloaded from public tag `v0.1.0` on Windows; all seven installed files matched the release sources |
 | POSIX local-copy route | Documented; not run in the recorded Windows evaluation |
 | Other Agent Skills-compatible hosts | Untested installation and behavior |
+
+## Public distribution check
+
+On 2026-10-21, the standard Codex Skill Installer downloaded the public
+`v0.1.0` skill into a temporary directory using this route:
+
+```text
+install-skill-from-github.py --url https://github.com/pengyan0425/pengyan0425-research-without-theater/tree/v0.1.0/skills/research-without-theater --dest <temporary-directory> --method download
+```
+
+All seven installed files matched the release sources by SHA-256. The
+[published ZIP and checksum file](https://github.com/pengyan0425/pengyan0425-research-without-theater/releases/tag/v0.1.0)
+were downloaded separately; the checksum matched and all seven archive entries
+contained the same bytes as the installed skill. The published ZIP SHA-256 is
+`f9e8d2869398a117fffc57ba662ba0c57588bb70b5f8543e92158d494c104627`.
+
+The packager on `main` pins ZIP creator metadata to Unix (`create_system = 3`),
+allowing the Windows rebuild to match the published Linux artifact byte for
+byte. The original release tag and assets remain available. The
+[release workflow](https://github.com/pengyan0425/pengyan0425-research-without-theater/actions/runs/39587770755)
+also passed numerical, structural, and standalone installation checks on Ubuntu
+with Python 3.10 and 3.13. These distribution checks are separate from the
+recorded model evaluations.
 
 ## Host requirements
 

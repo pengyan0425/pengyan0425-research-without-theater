@@ -18,6 +18,7 @@ def main():
         for source in sorted(skill.rglob("*"), key=lambda path: path.relative_to(skill).as_posix()):
             if source.is_file():
                 info = ZipInfo((Path(skill.name) / source.relative_to(skill)).as_posix(), (1980, 1, 1, 0, 0, 0))
+                info.create_system = 3
                 info.compress_type = ZIP_DEFLATED
                 info.external_attr = 0o644 << 16
                 archive.writestr(info, source.read_bytes())
