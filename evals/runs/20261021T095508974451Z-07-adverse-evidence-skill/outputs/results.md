@@ -1,0 +1,1 @@
+Predictions of annual streamflow anomalies from catchment descriptors showed limited transfer to spatially separated catchments. Although random splitting yielded an R² of 0.61, performance in the prespecified spatial holdout was near zero (R² = 0.02; 95% bootstrap CI, −0.07 to 0.09).

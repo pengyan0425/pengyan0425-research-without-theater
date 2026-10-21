@@ -1,0 +1,1 @@
+Saved the single-sentence revision to [outputs/revised.md](outputs/revised.md), preserving the observational scope, association language, sample size, correlation, and confidence interval. No decisions remain.

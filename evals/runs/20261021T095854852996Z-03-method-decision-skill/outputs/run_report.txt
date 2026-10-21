@@ -1,0 +1,12 @@
+Planned paired analysis: blocked by a missing measurement.
+Python: 3.13.12 (standard library only).
+Command: python -B analysis.py
+Original failure reproduced: ValueError while converting NA to float.
+Revised command exit code: 1
+Diagnostic: Planned eight-pair mean cannot be computed: missing measurement(s) for unit D (treatment). methods.md approves no exclusion, imputation, or missing-data model. A complete set of measurements or an approved missing-data approach is required. No numerical result was written.
+
+Technical repairs: explicit checks for eight distinct units and missing measurements; input and output paths are relative to analysis.py. The treatment-minus-control formula is unchanged.
+Validation: the supplied data produce the expected missing-measurement diagnostic. A separate complete synthetic dataset passed a calculation and path-resolution smoke check. Temporary synthetic files were removed. data.csv and methods.md were unchanged.
+
+The planned estimand is the mean across all eight enrolled units. No study estimate or result.json was produced.
+Decision required: specify and approve a missing-data approach. Excluding unit D would target the seven observed pairs; imputation or modeling would introduce assumptions for the missing measurement. No such choice has been applied.

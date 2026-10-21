@@ -1,0 +1,22 @@
+{
+  "analysis_type": "planned",
+  "estimand": "Average treatment-minus-control difference across all eight enrolled units",
+  "expected_pairs": 8,
+  "observed_pairs": 8,
+  "complete_pairs": 7,
+  "run_utc": "2026-10-21T09:56:57.776359+00:00",
+  "python_version": "3.13.12",
+  "sha256": {
+    "data.csv": "08044169e9babba95d99212b8e0aa9fafe56d5b605d34e7729a46e05161054ab",
+    "methods.md": "184c3c2f8d7b77bbdac70164eba1d822a5743494c4bfd39108502a08fb5f610f",
+    "analysis.py": "ad6dd8d4901df10a6eecc7da7b718d03c62f070e3314c87cf432af9d955c083e"
+  },
+  "status": "blocked_missing_measurement",
+  "missing_measurements": [
+    {
+      "unit": "D",
+      "field": "treatment"
+    }
+  ],
+  "decision_required": "Approve a missing-data method or retain the planned analysis as pending. Excluding an incomplete pair changes the analysis population; imputation or a missing-data model introduces additional assumptions."
+}

@@ -1,0 +1,16 @@
+{
+  "command": "python -I -B analysis.py",
+  "exit_code": 0,
+  "result_written_at_utc": "2026-10-21T09:55:27.446374+00:00",
+  "python_version": "3.13.12",
+  "dependencies": "Python standard library only",
+  "analysis": "Prespecified confirmatory analysis; no exploratory analyses performed",
+  "randomness": "Deterministic; no random seed required",
+  "source_sha256": {
+    "analysis.py": "c37a121f974076d612c3e4b567ea5fea9a9d3b7aa5ed4a4ce78868c2cc451b23",
+    "data.json": "3f0590a26a54c36d4ddee513dc217343240967648464a608ed6ad8859767017a",
+    "methods.md": "0a3dc8c2760b9112daca78ab3bbacb7bf80627afba7853b6bac5dbce6af51849"
+  },
+  "result_file": "outputs/result.json",
+  "results_paragraph": "outputs/results.md"
+}

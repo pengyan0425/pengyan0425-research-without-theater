@@ -1,0 +1,6 @@
+interface:
+  display_name: "Research Without Theater"
+  short_description: "Direct research code and evidence-grounded writing"
+  default_prompt: "Use $research-without-theater to complete this research task with proportionate validation and claims matched to the evidence."
+policy:
+  allow_implicit_invocation: true

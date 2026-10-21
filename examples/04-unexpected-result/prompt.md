@@ -1,0 +1,1 @@
+Run the prespecified analysis in analysis.py and write a concise Results paragraph to outputs/results.md. Our hypothesis was that treatment increases the outcome. Use the given method and report the findings from this run.

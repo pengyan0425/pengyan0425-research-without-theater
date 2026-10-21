@@ -1,0 +1,63 @@
+{
+  "purpose": "Refactor validation on supplied data.json",
+  "run_utc": "2026-10-21T09:56:00.407349+00:00",
+  "python_version": "3.13.12",
+  "dependencies": "Python standard library only",
+  "method": "Paired treatment minus control; sample SD with n - 1 denominator; standard error = sample SD / sqrt(n)",
+  "signature": "(control, treatment)",
+  "files": {
+    "input": {
+      "path": "data.json",
+      "sha256": "e74a95d08bdae308b2dea9949a76f07539efede609d2b1ab28d76a708ce83059"
+    },
+    "original_code": {
+      "path": "outputs/analysis.original.py",
+      "sha256": "c4f444e73e09b7b2a86a128c1db25d7b13a653abd0f8b520f309e4e63ebf38a7"
+    },
+    "refactored_code": {
+      "path": "analysis.py",
+      "sha256": "2f130b8dd6b76640b2ecb398a2f01a48b62ae85a36acaa0871c1ed64941ed0d4"
+    },
+    "original_result": {
+      "path": "outputs/result.original.json",
+      "sha256": "bbabb636e6a1fc4ae2dbb5fcbf1ed49ea6ed072bbbf1dd06b406da9ccd7a64a4"
+    },
+    "refactored_result": {
+      "path": "outputs/result.json",
+      "sha256": "bbabb636e6a1fc4ae2dbb5fcbf1ed49ea6ed072bbbf1dd06b406da9ccd7a64a4"
+    }
+  },
+  "reproduce_from_workspace": {
+    "original": "python -I -B outputs/analysis.original.py",
+    "refactored": "python -I -B analysis.py",
+    "note": "Each command writes outputs/result.json; retained baseline is outputs/result.original.json."
+  },
+  "core_numbers": {
+    "n": {
+      "original": 8,
+      "refactored": 8,
+      "difference": 0
+    },
+    "mean_difference": {
+      "original": 1.0,
+      "refactored": 1.0,
+      "difference": 0.0
+    },
+    "sample_sd": {
+      "original": 1.8516401995451028,
+      "refactored": 1.8516401995451028,
+      "difference": 0.0
+    },
+    "standard_error": {
+      "original": 0.6546536707079771,
+      "refactored": 0.6546536707079771,
+      "difference": 0.0
+    }
+  },
+  "checks": {
+    "same_public_signature": true,
+    "same_result_fields_and_order": true,
+    "exact_result_match": true
+  },
+  "all_checks_passed": true
+}

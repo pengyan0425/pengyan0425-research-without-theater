@@ -1,0 +1,42 @@
+{
+  "run_id": "20261021T095234924491Z-01-runtime-repair-baseline",
+  "case": "01-runtime-repair",
+  "condition": "baseline",
+  "started_utc": "2026-10-21T09:52:34.960224+00:00",
+  "elapsed_seconds": 90.8,
+  "model_requested": "gpt-6.1-sol",
+  "reasoning_effort_requested": "xhigh",
+  "model_confirmation": "CLI request; server model fingerprint not exposed by these events",
+  "codex_version": "codex-cli 0.163.0",
+  "python_version": "3.13.12",
+  "platform": "Windows",
+  "returncode": 0,
+  "user_config": "--ignore-user-config; authentication retained; global instructions and other discoverable skills may still apply",
+  "new_skill_installed_in_workspace": false,
+  "new_skill_read_observed": false,
+  "observed_skill_read_commands": [],
+  "entrypoint_sha256": null,
+  "skill_files_sha256": {},
+  "input_sha256": {
+    "analysis.py": "3187ec91d3bde2867c86e9f5d903507220eecefbd296f5b94ca69da597ece384",
+    "data.csv": "81f7904604cd64a21e63c93c9413aa6c7b8d4211a49a06f987fb48097e031ba4",
+    "methods.md": "33ab9954fd3997c5779a3306dd807cae26546d99a553db889796e0980984969a",
+    "prompt.md": "fb06312c74a9eabe64e8ef493f12db33fe56db48f571872d27c447b066d9bc74"
+  },
+  "immutable_inputs_unchanged": {
+    "data.csv": true,
+    "methods.md": true,
+    "prompt.md": true
+  },
+  "output_files": [
+    "outputs/result.json"
+  ],
+  "token_usage": {
+    "input_tokens": 189932,
+    "cached_input_tokens": 173056,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1868,
+    "reasoning_output_tokens": 788
+  },
+  "export_note": "Selected completed events and text artifacts; paths redacted and instruction/discovery output omitted. Raw local logs excluded. Review before publication."
+}

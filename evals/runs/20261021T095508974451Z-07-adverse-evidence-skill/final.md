@@ -1,0 +1,1 @@
+Saved the paragraph to [outputs/results.md](outputs/results.md), emphasizing limited spatial transfer and retaining both R² values and the bootstrap interval. Checked against `evidence.json`; no decisions remain.

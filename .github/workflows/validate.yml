@@ -1,0 +1,63 @@
+name: Validate and release
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Compile maintainer scripts
+        run: python -m py_compile scripts/check_examples.py scripts/verify_release.py scripts/run_eval.py scripts/package_skill.py
+      - name: Verify numerical examples
+        run: python scripts/check_examples.py
+      - name: Verify numerical checks in retained runs when present
+        shell: bash
+        run: |
+          if [ -d evals/runs ]; then
+            python scripts/check_examples.py --runs evals/runs
+          else
+            echo "No retained runs present; structural checks still run."
+          fi
+      - name: Verify release structure and standalone installation
+        run: python scripts/verify_release.py
+
+  release:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Publish a new version after validation
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          release_tag="v$(tr -d '\r\n' < VERSION)"
+          if gh release view "$release_tag" --repo "$GITHUB_REPOSITORY" > /dev/null 2>&1; then
+            echo "Release $release_tag already exists; leaving its assets and tag intact."
+            exit 0
+          fi
+          python scripts/package_skill.py
+          gh release create "$release_tag" \
+            "dist/research-without-theater-${release_tag}.zip" dist/SHA256SUMS \
+            --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" \
+            --title "Research Without Theater $release_tag" --notes-file CHANGELOG.md

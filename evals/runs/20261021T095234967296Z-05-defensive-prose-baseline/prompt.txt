@@ -1,0 +1,4 @@
+Complete the research task below in English. Work only in the current disposable workspace; installed skill instructions may be read. Do not use the network, user configuration, memory files, or parent project files. Preserve supplied data, methods, and manuscript source files; write deliverables under outputs/. Python scripts can be edited when the task calls for it. Finish with a concise account of the result and any remaining decision.
+
+TASK
+Tighten draft.md into one publication-ready Results sentence. Preserve the findings and the strength of evidence. Save the revision to outputs/revised.md.

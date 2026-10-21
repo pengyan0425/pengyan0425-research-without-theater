@@ -1,0 +1,32 @@
+Research Without Theater
+Copyright 2026 the Research Without Theater contributors
+
+This product is an original, independently authored Codex skill.
+The file LICENSE contains the Apache License, Version 2.0 terms that apply
+to this product.
+
+Conceptual influence
+--------------------
+The design notes record ideas drawn from the following projects. This listing
+records conceptual influence. No code, skill instructions, Guard components,
+hooks, scripts, or runtime files from either project are vendored here.
+
+Nature skills
+Source: https://github.com/Yuan1z0825/nature-skills
+Verified commit: 473e8d7b1b918fe37208d3a5e143a3ac9af4c91b
+Upstream license: Apache License 2.0
+Useful concepts: connect claims to evidence, assign argument functions to
+prose, preserve statistical meaning, and organize main and supporting detail
+by relevance.
+
+Stop That Shit
+Source: https://github.com/lennney/stop-that-shit
+Public label: 0.2.5 (the repository does not provide a v0.2.5 tag)
+Release page commit: 8bc1ac558167121e7f28d9fb0bec05c039952206
+Upstream license: MIT
+Useful concepts: begin with the requested result and scale code and validation
+complexity to an observed need.
+
+Source-specific license texts and attribution records are in third_party/.
+The installable skill carries its own LICENSE and a self-contained NOTICE that
+records the same source attribution.

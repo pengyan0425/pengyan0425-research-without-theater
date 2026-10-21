@@ -1,0 +1,1 @@
+Edit only the paragraph under 'Target paragraph' in manuscript.md to make it direct and concise. Use evidence.json. Preserve the other sections verbatim. Keep the supplied citation placeholder; the source year and sample size are not available. Do not look them up. Save the complete revised manuscript to outputs/manuscript.md and briefly identify any missing facts.

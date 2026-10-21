@@ -1,0 +1,1 @@
+{"design": "cross-sectional observational survey", "sample": "90 lakes", "variables": ["summer water temperature", "bloom duration"], "statistic": "Pearson r", "estimate": 0.42, "ci95": [0.23, 0.58], "causal_identification": "none", "units_for_bloom_duration": "days"}

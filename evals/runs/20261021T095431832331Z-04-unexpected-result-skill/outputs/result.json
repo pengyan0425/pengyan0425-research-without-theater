@@ -1,0 +1,10 @@
+{
+  "n": 8,
+  "mean_difference": -0.25,
+  "standard_error": 0.7499999999999999,
+  "ci95": [
+    -2.02346818825,
+    1.5234681882499996
+  ],
+  "analysis": "prespecified"
+}

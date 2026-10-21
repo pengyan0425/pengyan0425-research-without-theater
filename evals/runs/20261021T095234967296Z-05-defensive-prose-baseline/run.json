@@ -1,0 +1,43 @@
+{
+  "run_id": "20261021T095234967296Z-05-defensive-prose-baseline",
+  "case": "05-defensive-prose",
+  "condition": "baseline",
+  "started_utc": "2026-10-21T09:52:34.984823+00:00",
+  "elapsed_seconds": 85.77,
+  "model_requested": "gpt-6.1-sol",
+  "reasoning_effort_requested": "xhigh",
+  "model_confirmation": "CLI request; server model fingerprint not exposed by these events",
+  "codex_version": "codex-cli 0.163.0",
+  "python_version": "3.13.12",
+  "platform": "Windows",
+  "returncode": 0,
+  "user_config": "--ignore-user-config; authentication retained; global instructions and other discoverable skills may still apply",
+  "new_skill_installed_in_workspace": false,
+  "new_skill_read_observed": false,
+  "observed_skill_read_commands": [
+    "\"<PROGRAM_FILES>\\\\PowerShell\\\\7\\\\pwsh.exe\" -NoProfile -Command \"Get-Content -LiteralPath draft.md -Raw; Get-Content -LiteralPath '<USER_HOME>/.codex/skills/nature-polishing/SKILL.md' -Raw; Get-Content -LiteralPath '<USER_HOME>/.codex/skills/anti-defensive-writing/SKILL.md' -Raw; rg --files --hidden -g '\"'!.git'\"' -g 'AGENTS.md' -g '*.md'\"",
+    "\"<PROGRAM_FILES>\\\\PowerShell\\\\7\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath '<USER_HOME>/.codex/skills/anti-defensive-writing/SKILL.md' -Raw\"",
+    "\"<PROGRAM_FILES>\\\\PowerShell\\\\7\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath '<USER_HOME>/.codex/skills/nature-polishing/SKILL.md' -Raw\""
+  ],
+  "entrypoint_sha256": null,
+  "skill_files_sha256": {},
+  "input_sha256": {
+    "draft.md": "74814fe61ee9b5be031679ceb47a67aa63ae2f17f9c4c6eae8639a6e83b5bc6e",
+    "prompt.md": "44663c0a55ee339762b6b617a64792413dbfda220b5f330ec224d83122008bba"
+  },
+  "immutable_inputs_unchanged": {
+    "draft.md": true,
+    "prompt.md": true
+  },
+  "output_files": [
+    "outputs/revised.md"
+  ],
+  "token_usage": {
+    "input_tokens": 208186,
+    "cached_input_tokens": 171776,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1938,
+    "reasoning_output_tokens": 753
+  },
+  "export_note": "Selected completed events and text artifacts; paths redacted and instruction/discovery output omitted. Raw local logs excluded. Review before publication."
+}

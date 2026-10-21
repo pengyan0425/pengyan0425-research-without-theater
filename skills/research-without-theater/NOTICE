@@ -1,0 +1,58 @@
+Research Without Theater, version 0.1.0
+Copyright 2026 the Research Without Theater contributors
+
+This installable skill is an original, independently authored work licensed
+under Apache License 2.0. See LICENSE in this directory for the complete terms.
+
+Conceptual influence
+--------------------
+The author consulted the projects below while developing the design. Their
+ideas influenced the general principles summarized here. The skill entry point,
+reference guides, examples, and scripts were authored for this project. This
+package contains no copied upstream code or instructions, no Guard layer, no
+hooks, and no runtime dependency from those projects.
+
+Nature skills
+Source: https://github.com/Yuan1z0825/nature-skills
+Verified commit: 473e8d7b1b918fe37208d3a5e143a3ac9af4c91b
+License: Apache License 2.0
+Concepts: evidence-matched claims, argument-focused prose, statistical
+meaning, and relevance-based placement of result and supporting detail.
+The complete Apache License 2.0 terms are available in LICENSE; LICENSE also
+covers this original work.
+
+Stop That Shit
+Source: https://github.com/lennney/stop-that-shit
+Public label: 0.2.5 (no v0.2.5 tag is published)
+Release page commit: 8bc1ac558167121e7f28d9fb0bec05c039952206
+License: MIT
+Concepts: direct delivery, observed-need complexity, and validation
+proportionate to the change.
+Copyright (c) 2026 Stop That Shit contributors. The MIT License text is
+reproduced below.
+
+MIT License
+
+Copyright (c) 2026 Stop That Shit contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+The repository's third_party/ directory additionally preserves the applicable
+upstream license texts and source-specific notices. They contain attribution
+material, not active skill dependencies.

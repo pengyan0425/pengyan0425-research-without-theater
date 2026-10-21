@@ -1,0 +1,1 @@
+{"design": "randomized laboratory experiment", "estimate": "latency reduction", "value": 1.8, "units": "ms", "ci95": [0.3, 3.3], "sample_size": null, "citation": "Lee et al., [year needed]", "citation_status": "provided placeholder; bibliographic record unavailable", "scope": "measured laboratory task"}

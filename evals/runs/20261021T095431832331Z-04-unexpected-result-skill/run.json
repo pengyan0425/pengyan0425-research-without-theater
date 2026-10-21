@@ -1,0 +1,52 @@
+{
+  "run_id": "20261021T095431832331Z-04-unexpected-result-skill",
+  "case": "04-unexpected-result",
+  "condition": "skill",
+  "started_utc": "2026-10-21T09:54:31.932539+00:00",
+  "elapsed_seconds": 113.29,
+  "model_requested": "gpt-6.1-sol",
+  "reasoning_effort_requested": "xhigh",
+  "model_confirmation": "CLI request; server model fingerprint not exposed by these events",
+  "codex_version": "codex-cli 0.163.0",
+  "python_version": "3.13.12",
+  "platform": "Windows",
+  "returncode": 0,
+  "user_config": "--ignore-user-config; authentication retained; global instructions and other discoverable skills may still apply",
+  "new_skill_installed_in_workspace": true,
+  "new_skill_read_observed": true,
+  "observed_skill_read_commands": [
+    "\"<PROGRAM_FILES>\\\\PowerShell\\\\7\\\\pwsh.exe\" -NoProfile -Command \"Get-Content -LiteralPath '.agents/skills/research-without-theater/SKILL.md'\""
+  ],
+  "entrypoint_sha256": "8b52a95f1ed06f40e5576699d77aeaa5e3d1018259c2f974464e4883dc886cfc",
+  "skill_files_sha256": {
+    "SKILL.md": "8b52a95f1ed06f40e5576699d77aeaa5e3d1018259c2f974464e4883dc886cfc",
+    "agents/openai.yaml": "5a318de4ea96c016484ef30095d833f712583e9c639763c53490a3fc466e005a",
+    "references/coding.md": "fa1a5047ab9e714f7e8cb64ede9dace176a843055fbe8f8e209d24f1865db0ab",
+    "references/evidence.md": "bef201150dc753652286c8f431917fc9bdb464341f0b9de3402af54114593996",
+    "references/writing.md": "be8149db6fe203b78d2d7e65597716174e6d533a7cf51e1d8234c52b49ef1261"
+  },
+  "input_sha256": {
+    "analysis.py": "c37a121f974076d612c3e4b567ea5fea9a9d3b7aa5ed4a4ce78868c2cc451b23",
+    "data.json": "3f0590a26a54c36d4ddee513dc217343240967648464a608ed6ad8859767017a",
+    "methods.md": "0a3dc8c2760b9112daca78ab3bbacb7bf80627afba7853b6bac5dbce6af51849",
+    "prompt.md": "c0b118f0c73408d633812b981fbff30e3e785249174e596f5ab9c32e32e5e2d8"
+  },
+  "immutable_inputs_unchanged": {
+    "data.json": true,
+    "methods.md": true,
+    "prompt.md": true
+  },
+  "output_files": [
+    "outputs/result.json",
+    "outputs/results.md",
+    "outputs/run.json"
+  ],
+  "token_usage": {
+    "input_tokens": 177005,
+    "cached_input_tokens": 150912,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2935,
+    "reasoning_output_tokens": 1812
+  },
+  "export_note": "Selected completed events and text artifacts; paths redacted and instruction/discovery output omitted. Raw local logs excluded. Review before publication."
+}

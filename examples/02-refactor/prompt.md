@@ -1,0 +1,1 @@
+Simplify summarize in analysis.py while preserving its public interface, estimator, and result fields. Run it and compare the original and refactored core numbers on data.json. Save the new result and the comparison evidence under outputs/.

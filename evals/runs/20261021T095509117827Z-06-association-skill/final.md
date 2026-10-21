@@ -1,0 +1,1 @@
+Saved the Results sentence to [outputs/results.md](outputs/results.md), preserving the observational association, sample size, correlation, and confidence interval from `evidence.json`. No remaining decision.
