@@ -16,9 +16,11 @@ uses that rule across three connected modes:
 
 - **Execution:** read the real inputs and code, repair established technical
   faults, run the changed analysis, and retain provenance for reported values.
-- **Writing:** organize prose around the question, finding, evidence, and
-  contribution; remove anticipatory defenses while preserving uncertainty,
-  limits, and adverse evidence that affect interpretation.
+- **Writing:** present the strongest evidence-supported contribution like a
+  focused research presentation: problem, gap, approach, and hardest result;
+  give every experiment an argument function; state advantages and real
+  tradeoffs directly; and remove defensive self-commentary while preserving
+  uncertainty, limits, and adverse evidence that affect interpretation.
 - **Review:** report findings and proposed repairs; run checks that remain
   read-only, while edits or state-changing reruns need authorization.
 
@@ -32,6 +34,11 @@ analysis to get a preferred direction.
 It supplies model guidance rather than a policy enforcement layer. It does not
 replace project rules, statistical judgment, source review, or a user's
 decision about the science.
+
+When asked to inspect defensive writing, it reviews the supplied text sentence
+by sentence and returns the original wording, the specific problem, and an
+evidence-preserving replacement. It does not use presentation principles to
+hide a null result, adverse evidence, or a limit that changes the conclusion.
 
 ## Install
 
@@ -144,6 +151,13 @@ and identify missing facts rather than inventing them.
 其他部分逐字保留；缺失事实要标明，不要补造。
 ```
 
+```text
+Use $research-without-theater to review this paragraph for defensive writing.
+For every actionable sentence, give the original wording, why it weakens or
+does not advance the argument, and a replacement. Keep the measured result,
+uncertainty, evidence strength, and any limit that changes interpretation.
+```
+
 The repository's [examples](examples/README.md) contain eight original
 synthetic tasks covering execution, refactoring, method decisions, unexpected
 results, writing, association, adverse evidence, and local revision. Their data
@@ -223,3 +237,4 @@ skill instructions, Guard components, hooks, or runtime code are distributed.
 Contributions follow [CONTRIBUTING.md](CONTRIBUTING.md).
 
 [简体中文](README.zh-CN.md)
+

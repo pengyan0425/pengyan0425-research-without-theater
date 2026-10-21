@@ -24,7 +24,11 @@ The skill asks for a decision only at that boundary and continues independent au
 
 ## Evidence and writing
 
-Direct language keeps the direction, magnitude, uncertainty, design, and relevant contrary evidence intact. A point estimate with an interval spanning zero remains an uncertain estimate. An observational association remains an association. A sensitivity result that changes the main interpretation belongs with that interpretation; procedural detail can move to Methods or supplementary material.
+The writing layer uses a contribution-led presentation rule: organize the paper around its strongest evidence-supported advantage, with the abstract and introduction moving from problem to gap to approach to hardest result. Each experiment has an argument function, and each claimed advantage names its comparison, metric, magnitude, and applicable conditions when the evidence permits.
+
+This rule removes process reporting, anticipatory defenses, and self-undermining judgments. It does not permit changing a metric, baseline, sample, or comparison rule after seeing a result merely to improve its appearance. A different evaluation dimension is a scientific design choice and requires a reason and authorization when it changes the study's interpretation. A point estimate with an interval spanning zero remains an uncertain estimate. An observational association remains an association. A sensitivity result that changes the main interpretation belongs with that interpretation; procedural detail can move to Methods or supplementary material.
+
+When the user asks for a defensive-writing review, the skill reports each actionable instance with the original wording, the problem, and a replacement. A limit that changes interpretation stays in the text even when it makes the presentation less favorable.
 
 ## Packaging
 
@@ -35,3 +39,4 @@ The repository's release checks are for maintainers. Ordinary use of the skill d
 ## Tradeoffs
 
 This release supplies instructions, not policy enforcement. Model compliance and evidence access still matter. A small set of synthetic cases can reveal specific failures and demonstrate behavior; it cannot establish general productivity gains. Experimental comparisons are reported with their actual environment and contamination limits.
+
