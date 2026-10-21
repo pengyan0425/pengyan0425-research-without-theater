@@ -148,4 +148,3 @@ verb remains supported. Confirm that the abstract and introduction name the
 problem, gap, approach, and strongest result, and that every retained
 experiment advances the argument. Mark an unavailable fact precisely, such as
 `[sample size needed]`, rather than filling it from assumption.
-

@@ -3,7 +3,7 @@ name: research-without-theater
 description: "Complete scientific coding, experiments, analysis, and contribution-led manuscript writing with direct execution, proportionate validation, and evidence-matched claims. Use for research scripts, reproducibility checks, results interpretation, paper drafting or revision, sentence-by-sentence defensive-writing review, or requests to reduce unnecessary engineering. Infer execution, writing, or read-only review from the request."
 license: Apache-2.0
 metadata:
-  version: "0.1.2"
+  version: "0.1.3"
 ---
 
 # Research Without Theater
@@ -55,4 +55,3 @@ Read [the writing guide](references/writing.md) for drafting or substantive revi
 Check the changed behavior and the results needed to assess it. Expand validation only for a new failure, a concrete unresolved concern, or an explicit requirement. A small reversible change needs no new test suite that merely restates its implementation.
 
 Deliver the actual artifact or answer, the outcome of relevant validation, and any decision or missing fact that still matters. Match the user's language and requested format. Reserve reports, checklists, additional analyses, and broad audits for tasks that need them.
-

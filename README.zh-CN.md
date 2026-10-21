@@ -204,4 +204,3 @@ Nature skills 和 Stop That Shit 为设计提供了一般概念影响。来源�
 参与贡献请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 [English](README.md)
-

@@ -237,4 +237,3 @@ skill instructions, Guard components, hooks, or runtime code are distributed.
 Contributions follow [CONTRIBUTING.md](CONTRIBUTING.md).
 
 [简体中文](README.zh-CN.md)
-

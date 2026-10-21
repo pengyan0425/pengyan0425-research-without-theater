@@ -39,4 +39,3 @@ The repository's release checks are for maintainers. Ordinary use of the skill d
 ## Tradeoffs
 
 This release supplies instructions, not policy enforcement. Model compliance and evidence access still matter. A small set of synthetic cases can reveal specific failures and demonstrate behavior; it cannot establish general productivity gains. Experimental comparisons are reported with their actual environment and contamination limits.
-

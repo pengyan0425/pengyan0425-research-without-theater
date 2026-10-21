@@ -1,4 +1,4 @@
-Research Without Theater, version 0.1.2
+Research Without Theater, version 0.1.3
 Copyright 2026 the Research Without Theater contributors
 
 This installable skill is an original, independently authored work licensed
@@ -56,4 +56,3 @@ SOFTWARE.
 The repository's third_party/ directory additionally preserves the applicable
 upstream license texts and source-specific notices. They contain attribution
 material, not active skill dependencies.
-

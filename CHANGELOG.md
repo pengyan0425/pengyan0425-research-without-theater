@@ -5,6 +5,11 @@
 - Pin ZIP creator metadata so Windows rebuilds match the published Linux archive.
 - Record public Skill Installer and release-download verification.
 
+## 0.1.3
+
+- Preserve exact local UTF-8 file bytes in the published Git tree and release
+  archive.
+
 ## 0.1.2
 
 - Clarify that contribution-led presentation does not delete research records
@@ -30,4 +35,3 @@
 - Include source attribution and standalone license notices; omit upstream runtime enforcement components.
 
 See [the release evaluation](evals/review.md) for observed validation, model configuration, and comparison limitations.
-
