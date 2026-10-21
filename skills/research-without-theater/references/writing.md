@@ -25,6 +25,8 @@ that changes interpretation. Keep an experiment when it answers a defined
 question, tests a stated mechanism, establishes a comparison, or bounds the
 claim. Delete process narration, decorative experiments, and sentences whose
 only purpose is to reassure the reader that the authors were careful.
+This is a presentation decision: it does not authorize deleting analyses,
+records, raw outputs, or evidence from the research materials.
 
 Organize Results by the argument they establish rather than by the order in
 which analyses were attempted. Methods and Supplementary material can carry
@@ -62,7 +64,7 @@ signals include:
 - “The method is still clearly behind ...” when a direct comparison gives the
   actual difference.
 - “The effect was limited” when the relevant estimate and uncertainty are
-  available.
+  available and the phrase adds only a self-undermining judgment.
 
 Replace the judgment with evidence or a concrete interpretation. For example:
 
@@ -94,12 +96,16 @@ Unfortunately, our model only achieved an F1 of 0.82.
 Our model is still far behind the baseline.
 → F1 was 0.82, compared with 0.87 for the baseline.
 
-The effect was limited to the western sites.
-→ The association was observed in the western sites (estimate and interval).
+The effect was limited.
+→ The western sites showed [estimate and interval]; the other sites showed
+[estimate and interval].
 ```
 
-The last replacement requires the estimate, interval, and intended scope. If
-those facts are unavailable, mark the missing fact instead of inventing it.
+The last replacement requires the estimates, intervals, and intended scope. A
+statement such as “the effect was limited to the western sites” may be a real
+scope condition; retain it and report the relevant comparison rather than
+deleting it. If the facts are unavailable, mark the missing fact instead of
+inventing it.
 Keep a negative or qualified formulation when it is required for accuracy or
 directly answers the user's question.
 

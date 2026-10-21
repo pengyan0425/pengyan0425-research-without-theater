@@ -5,6 +5,11 @@
 - Pin ZIP creator metadata so Windows rebuilds match the published Linux archive.
 - Record public Skill Installer and release-download verification.
 
+## 0.1.2
+
+- Clarify that contribution-led presentation does not delete research records
+  or hide factual scope conditions such as site-specific effects.
+
 ## 0.1.1
 
 - Add contribution-led research writing: present the strongest supported result

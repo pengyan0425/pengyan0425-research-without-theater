@@ -3,7 +3,7 @@ name: research-without-theater
 description: "Complete scientific coding, experiments, analysis, and contribution-led manuscript writing with direct execution, proportionate validation, and evidence-matched claims. Use for research scripts, reproducibility checks, results interpretation, paper drafting or revision, sentence-by-sentence defensive-writing review, or requests to reduce unnecessary engineering. Infer execution, writing, or read-only review from the request."
 license: Apache-2.0
 metadata:
-  version: "0.1.1"
+  version: "0.1.2"
 ---
 
 # Research Without Theater
