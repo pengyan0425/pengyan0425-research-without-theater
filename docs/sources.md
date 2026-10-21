@@ -35,15 +35,6 @@ self-contained [NOTICE](../skills/research-without-theater/NOTICE).
   GitHub-repository route, and the user skill location under `$HOME/.agents`.
 - [Codex skills documentation](https://learn.chatgpt.com/docs/build-skills)
   was also checked as the product documentation entry point.
-- [Codex for Open Source](https://developers.openai.com/community/codex-for-oss)
-  describes the program's maintainer and API-credit scope.
-- The [Codex for Open Source application form](https://openai.com/zh-Hans-CN/form/codex-for-oss/)
-  requires a public repository, primary or core maintainer status, and a
-  separate OpenAI Organization ID. Its `Why this repository fits`, API-credit,
-  and `Additional information` responses have a 500-character limit.
-
-The [application draft](oss-application.md) records these constraints without
-claiming acceptance or submitting the form.
 
 ## License text verification
 

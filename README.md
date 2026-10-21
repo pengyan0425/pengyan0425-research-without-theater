@@ -124,9 +124,9 @@ sample rule, explain its effect and ask before choosing.
 ```
 
 ```text
-请使用 $research-without-theater 修复并运行 analysis.py。
-配对均值、样本标准差和标准误是既定方法。保留 data.csv，将结果写到 outputs/result.json，
-并比较修改前后的核心数值。如果缺失值需要新的样本规则，先说明影响并询问我，不要自行选择。
+��ʹ�� $research-without-theater �޸������� analysis.py��
+��Ծ�ֵ��������׼��ͱ�׼���Ǽȶ����������� data.csv�������д�� outputs/result.json��
+���Ƚ��޸�ǰ��ĺ�����ֵ�����ȱʧֵ��Ҫ�µ�����������˵��Ӱ�첢ѯ���ң���Ҫ����ѡ��
 ```
 
 ### Manuscript
@@ -139,9 +139,9 @@ and identify missing facts rather than inventing them.
 ```
 
 ```text
-请使用 $research-without-theater 修改目标 Results 段落。
-保留研究设计、估计值、不确定性，以及限制解释的不利结果。删除防御性叙述，
-其他部分逐字保留；缺失事实要标明，不要补造。
+��ʹ�� $research-without-theater �޸�Ŀ�� Results ���䡣
+�����о���ơ�����ֵ����ȷ���ԣ��Լ����ƽ��͵Ĳ��������ɾ��������������
+�����������ֱ�����ȱʧ��ʵҪ��������Ҫ���졣
 ```
 
 The repository's [examples](examples/README.md) contain eight original
@@ -220,8 +220,6 @@ Their source points, licenses, and conceptual influence are recorded in
 [third_party](third_party/README.md) and [sources](docs/sources.md). No copied
 skill instructions, Guard components, hooks, or runtime code are distributed.
 
-Contributions follow [CONTRIBUTING.md](CONTRIBUTING.md). The maintainer also
-keeps a non-submitted draft application for the OpenAI Codex for Open Source
-program in [docs/oss-application.md](docs/oss-application.md).
+Contributions follow [CONTRIBUTING.md](CONTRIBUTING.md).
 
-[简体中文](README.zh-CN.md)
+[��������](README.zh-CN.md)
